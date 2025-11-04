@@ -31,3 +31,7 @@ Enter any city name to get live temperature, humidity, wind speed, and weather c
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Ayshamahshoofa/LiveWeather.git
+
+---
+## 🚀 Live Demo  
+🔗 **Live Website:**https://ayshamahshoofa.github.io/LiveWeather/
