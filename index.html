@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+
+        <div class="date" id="date"></div>
+
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Search city...">
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <h2 class="section-title">Today Overview</h2>
+
+        <div class="overview-grid">
+            <div class="card">
+                <h3>Wind Speed</h3>
+                <p id="wind">-- km/h</p>
+            </div>
+
+            <div class="card">
+                <h3>Humidity</h3>
+                <p id="humidity">--%</p>
+            </div>
+
+            <div class="card">
+                <h3>Pressure</h3>
+                <p id="pressure">-- hPa</p>
+            </div>
+
+            <div class="card" id="error-box" style="color:#ff6b6b; display:none;">
+                Location not found. Try again.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel card weather-big">
+        <h1 id="temp">--°C</h1>
+        <h2 id="location">--</h2>
+        <p id="condition">--</p>
+
+        <div class="sun-time">
+            <p id="sunrise">🌅 Sunrise: --</p>
+            <p id="sunset">🌇 Sunset: --</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
