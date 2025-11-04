@@ -19,7 +19,21 @@ Enter any city name to get live **temperature, humidity, wind speed, and weather
 </p>
 
 ---
+## 📸 Application UI
 
+<table>
+<tr>
+<td>Home Screen</td>
+<td>Live Camera</td>
+<td>Analysis Result</td>
+</tr>
+<tr>
+<td><img src="./screenshot1.jpg" width="250"></td>
+<td><img src="./screenshot2.jpg" width="250"></td>
+<td><img src="./screenshot3.jpg" width="250"></td>
+</tr>
+</table>
+---
 ## 🌟 Features
 
 ✅ Real-time weather data
