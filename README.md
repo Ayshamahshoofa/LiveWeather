@@ -10,6 +10,15 @@ Enter any city name to get live **temperature, humidity, wind speed, and weather
 🔗 **Visit Website:** [https://ayshamahshoofa.github.io/LiveWeather/](https://ayshamahshoofa.github.io/LiveWeather/)
 
 ---
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshot1.jpg" width="30%" />
+  <img src="./screenshot2.jpg" width="30%" />
+  <img src="./screenshot3.jpg" width="30%" />
+</p>
+
+---
 
 ## 🌟 Features
 
