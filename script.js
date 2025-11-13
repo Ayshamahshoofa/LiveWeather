@@ -1,4 +1,4 @@
-const apiKey = "a1c5d1c79e8d7ae033cb6303dbf857f2";
+const apiKey = "YOUR_API_KEY";
 
 document.getElementById("date").innerText = new Date().toLocaleDateString(
   "en-US",
